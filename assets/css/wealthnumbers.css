@@ -1,0 +1,25 @@
+ul {
+	list-style-type: none;
+	margin-left: 15px;
+	padding: 0;
+}
+[v-cloak] {
+  display: none;
+}
+
+body {
+	font-family: "Arial Narrow";
+	color: 	#696969;
+}
+
+h1 {
+	font-family: Ubuntu;
+	text-align: center;
+	font-size: 50px;
+	color: #8fbc8f;
+}
+
+h2 { 
+	font-family: Ubuntu;
+	color: #8fbc8f;
+ }

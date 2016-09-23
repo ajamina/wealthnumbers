@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html>
+<head>
+<h1> WEAL+H NUMBERS </h1>
+	<meta charset="utf-8" />
+	<link href="/assets/css/wealthnumbers.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+
+	<title>WealthNumbers</title>
+</head>
+<body>
+<h2> Mortgage Calculator </h2>
+
+	<ul id="mortgage" v-cloak>
+		<li>Loan Amount ($)........................... <input v-model="principal" number type="text" /></li> 
+		<li>Number of Years (Ammortization) <input v-model="years" number type="text" /></li> 
+		<li>Annual Interest Rate (%).............. <input v-model="rate" number type="text" /></li> 
+
+
+
+
+
+		<h3>MONTHLY MORTGAGE PAYMENT: {{ mortgage_pmt() }}</h3>
+	</ul>
+
+</body>
+	<script src="/assets/js/vue.js"></script>
+	<script src="/assets/js/wealthnumbers.js"></script>
+</html>
