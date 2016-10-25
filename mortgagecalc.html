@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<h1> wealth numßers </h1>
+	<meta charset="utf-8" />
+	<link href="/assets/css/wealthnumbers.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+
+	<title>WealthNumbers</title>
+</head>
+<body>
+<div class="menu"> 
+<a href="index.html" class="nav-link">Home</a> |  <span class="current"><span class="featured">Mortgage Payment</span></span> | <a href="underconstruction.html" class="nav-link">Loan Payment</a> | <a href="underconstruction.html" class="nav-link">Car Lease VS Financing </a> | <a href="underconstruction.html" class="nav-link">Portfolio Optimization </a>
+</div>
+<h2 class="calc"> Mortgage Calculator </h2>
+<div id="mortgage" class="calc" v-cloak>
+	<form class="container">
+		<label>Loan Amount ($)</label> 
+		<input v-model="principal" number type="text" /><br />
+		<label>Number of Years (Ammortization)</label> 
+		<input v-model="years" number type="text" /><br />
+		<label>Annual Interest Rate (%) </label> 
+		<input v-model="rate" number type="text" /><br />
+	</form>
+	
+
+	<h3>MONTHLY MORTGAGE PAYMENT: {{ mortgage_pmt() }}</h3>
+</div>	
+
+</body>
+	<script src="/assets/js/vue.js"></script>
+	<script src="/assets/js/wealthnumbers.js"></script>
+</html>
