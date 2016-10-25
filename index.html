@@ -1,29 +1,21 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
-<h1> WEAL+H NUMBERS </h1>
 	<meta charset="utf-8" />
 	<link href="/assets/css/wealthnumbers.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
-
-	<title>WealthNumbers</title>
+	<title>WealthNumbers</title>	
 </head>
 <body>
-<h2> Mortgage Calculator </h2>
+<div class="header"> 
+<h1> wealth numßers </h1>
 
-	<ul id="mortgage" v-cloak>
-		<li>Loan Amount ($)........................... <input v-model="principal" number type="text" /></li> 
-		<li>Number of Years (Ammortization) <input v-model="years" number type="text" /></li> 
-		<li>Annual Interest Rate (%).............. <input v-model="rate" number type="text" /></li> 
-
-
-
-
-
-		<h3>MONTHLY MORTGAGE PAYMENT: {{ mortgage_pmt() }}</h3>
-	</ul>
-
+</div>
+<div class="menu"> 
+	<span class="current">Home</span> |
+	<a href="mortgagecalc.html" class="nav-link">
+	<span class="featured">Mortgage Payment</span> | <a href="underconstruction.html" class="nav-link">Loan Payment</a> | <a href="underconstruction.html" class="nav-link">Car Lease VS Financing </a> | <a href="underconstruction.html" class="nav-link">Portfolio Optimization </a><div>
+<a class="mortgagelink" href="/mortgagecalc.html"><img class="home" src="calculator.png"></a>
+<div class="paragraph"> Welcome to wealth numßers. Get ready to crunch. </div>
 </body>
-	<script src="/assets/js/vue.js"></script>
-	<script src="/assets/js/wealthnumbers.js"></script>
 </html>
