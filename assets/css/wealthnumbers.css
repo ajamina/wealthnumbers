@@ -1,8 +1,22 @@
-ul {
+form {
 	list-style-type: none;
-	margin-left: 15px;
 	padding: 0;
+	display: inline-block;
+    text-align: center;
 }
+
+.container {
+    width: 200px;
+    clear: both;
+    text-align: center;
+}
+
+    
+.container input {
+    width: 100%;
+    clear: both;
+}
+
 [v-cloak] {
   display: none;
 }
@@ -12,14 +26,113 @@ body {
 	color: 	#696969;
 }
 
+
 h1 {
+	font-style: italic;
 	font-family: Ubuntu;
 	text-align: center;
 	font-size: 50px;
 	color: #8fbc8f;
+	border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    border-color: #696969;
+
 }
 
 h2 { 
 	font-family: Ubuntu;
 	color: #8fbc8f;
  }
+
+a.nav-link
+{
+   color: #696969;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #696969;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #696969;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #696969;
+   text-decoration: none;
+}
+
+
+.current {
+	font-weight: bold;
+}
+
+.calc {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h2.calc {
+	padding-top: 50px;
+}
+
+.paragraph {
+	color: #8fbc8f;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 25px;
+
+}
+
+.menu {
+	text-align:center;
+}
+
+img.constructionpic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+div.construction {
+	text-align: center;
+	padding: 50px;
+	color: #8fbc8f;
+	font-size: 25px;
+
+}
+
+img.home {
+    padding-top: 45px;
+    max-width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+a.mortgagelink {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 25%;
+    text-align: center;
+}
+
+.featured {
+	color: #8fbc8f;
+	font-size: 25px;
+
+}
+.incomplete {
+	margin-left: 638px;
+	font-style: italic;
+	font-size: 25px;
+}
