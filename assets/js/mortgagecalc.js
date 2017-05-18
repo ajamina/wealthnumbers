@@ -17,7 +17,13 @@ var mortgagecalc = new Vue({
                 if (!this.years) {
                     return '$0';
                 }
-                return '$' + this.principal / this.years;
+            else if (!this.principal) {
+                    return '$0';
+                }
+
+            else {
+                    return '$' + (this.principal / (this.years*12)).toFixed(2);
+                }
             }
             var months = this.years * 12;
             var adj_rate_1 = this.rate / 200;
