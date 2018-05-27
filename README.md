@@ -1,7 +1,5 @@
 # wealthnumbers
 
-[www.wealthnumbers.com](http://www.wealthnumbers.com)
-
 ## Existing Calculators:
 - Mortgage payment calculator
 
